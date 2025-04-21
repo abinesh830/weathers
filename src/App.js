@@ -20,7 +20,7 @@ console.log(result)
 
   useEffect(()=>{
     receiver()
-  },[input])
+  },[input,receiver])
   
   return (
     <div className="App">
